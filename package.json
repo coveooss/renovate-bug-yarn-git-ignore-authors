@@ -1,0 +1,12 @@
+{
+  "name": "renovate-bug-yarn-git-ignore-authors",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:coveooss/renovate-bug-yarn-git-ignore-authors.git",
+  "author": "Boris Bera <bbera@coveo.com>",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "eslint-plugin-jest": "27.2.3"
+  }
+}
