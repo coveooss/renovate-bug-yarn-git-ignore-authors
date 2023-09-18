@@ -4,8 +4,6 @@
   "dependencyDashboard": true,
   "extends": [
     "config:base",
-    "helpers:pinGitHubActionDigests",
-    "schedule:earlyMondays",
     "group:allNonMajor"
   ],
   "labels": [
@@ -13,11 +11,11 @@
     "bot"
   ],
   "prConcurrentLimit": 3,
-  "prHeader": "DT-5590 <- Put your own jira issue here by setting the `prHeader` value in your renovate config",
   "rebaseWhen": "auto",
   "reviewersFromCodeOwners": true,
   "suppressNotifications": [
     "prIgnoreNotification"
   ],
-  "timezone": "America/Toronto"
+  "timezone": "America/Toronto",
+  "gitIgnoredAuthors": ["actions@github.com"]
 }
