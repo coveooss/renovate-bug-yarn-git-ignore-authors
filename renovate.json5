@@ -1,0 +1,21 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "branchPrefix": "renovate/",
+  "dependencyDashboard": true,
+  "extends": [
+    "config:base",
+    "group:allNonMajor"
+  ],
+  "labels": [
+    "dependency update",
+    "bot"
+  ],
+  "prConcurrentLimit": 3,
+  "rebaseWhen": "auto",
+  "reviewersFromCodeOwners": true,
+  "suppressNotifications": [
+    "prIgnoreNotification"
+  ],
+  "timezone": "America/Toronto",
+  "gitIgnoredAuthors": ["actions@github.com"]
+}
