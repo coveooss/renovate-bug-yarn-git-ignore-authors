@@ -18,5 +18,5 @@
   ],
   "timezone": "America/Toronto",
   "gitIgnoredAuthors": ["actions@github.com"],
-  "rangeStrategy": "bump"
+  "rangeStrategy": "replace"
 }
