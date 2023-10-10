@@ -17,5 +17,6 @@
     "prIgnoreNotification"
   ],
   "timezone": "America/Toronto",
-  "gitIgnoredAuthors": ["actions@github.com"]
+  "gitIgnoredAuthors": ["actions@github.com"],
+  "rangeStrategy": "bump"
 }
